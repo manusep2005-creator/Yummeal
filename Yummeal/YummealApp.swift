@@ -11,7 +11,7 @@ import SwiftUI
 struct YummealApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CuisineSelectionView()
         }
     }
 }

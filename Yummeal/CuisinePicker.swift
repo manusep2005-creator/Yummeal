@@ -146,6 +146,12 @@ struct CuisineSelectionView: View {
     }
 }
 
+struct Meal1sView: View {
+   var body: some View {
+        Text("Meals View")
+   }
+}
+
 struct CuisineCard: View {
     @Binding var cuisine: Cuisine
     
@@ -184,12 +190,7 @@ struct CuisineCard: View {
     }
 }
 
-//// Placeholder for next screen
-struct MealsView: View {
-   var body: some View {
-        Text("Meals View")
-   }
-}
+
 
 #Preview {
     NavigationStack {
